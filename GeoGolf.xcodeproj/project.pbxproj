@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2375378D1857A88800B2F114 /* TestingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2375378C1857A88800B2F114 /* TestingViewController.m */; };
+		237537901857B84100B2F114 /* GGAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2375378F1857B84100B2F114 /* GGAnnotation.m */; };
+		23E2A2731856506F00669041 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E2A2721856506F00669041 /* CoreLocation.framework */; };
+		23E2A275185650D500669041 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E2A274185650D500669041 /* MapKit.framework */; };
 		23E45D8E18553758006978F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E45D8D18553758006978F9 /* Foundation.framework */; };
 		23E45D9018553758006978F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E45D8F18553758006978F9 /* CoreGraphics.framework */; };
 		23E45D9218553758006978F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E45D9118553758006978F9 /* UIKit.framework */; };
@@ -26,6 +30,7 @@
 		23E45DBB18553758006978F9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E45D9318553758006978F9 /* CoreData.framework */; };
 		23E45DC318553758006978F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23E45DC118553758006978F9 /* InfoPlist.strings */; };
 		23E45DC518553758006978F9 /* GeoGolfTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E45DC418553758006978F9 /* GeoGolfTests.m */; };
+		C357219429E140CBBA86BB70 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC121C9819444DB9F434A50 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2375378B1857A88800B2F114 /* TestingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestingViewController.h; sourceTree = "<group>"; };
+		2375378C1857A88800B2F114 /* TestingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestingViewController.m; sourceTree = "<group>"; };
+		2375378E1857B84100B2F114 /* GGAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGAnnotation.h; sourceTree = "<group>"; };
+		2375378F1857B84100B2F114 /* GGAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGAnnotation.m; sourceTree = "<group>"; };
+		23E2A2721856506F00669041 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		23E2A274185650D500669041 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		23E45D8A18553758006978F9 /* GeoGolf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoGolf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23E45D8D18553758006978F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		23E45D8F18553758006978F9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,6 +74,8 @@
 		23E45DC018553758006978F9 /* GeoGolfTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeoGolfTests-Info.plist"; sourceTree = "<group>"; };
 		23E45DC218553758006978F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		23E45DC418553758006978F9 /* GeoGolfTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoGolfTests.m; sourceTree = "<group>"; };
+		ECC121C9819444DB9F434A50 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9A352012B66436699C5DD79 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,10 +83,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23E2A275185650D500669041 /* MapKit.framework in Frameworks */,
+				23E2A2731856506F00669041 /* CoreLocation.framework in Frameworks */,
 				23E45D9018553758006978F9 /* CoreGraphics.framework in Frameworks */,
 				23E45D9418553758006978F9 /* CoreData.framework in Frameworks */,
 				23E45D9218553758006978F9 /* UIKit.framework in Frameworks */,
 				23E45D8E18553758006978F9 /* Foundation.framework in Frameworks */,
+				C357219429E140CBBA86BB70 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +114,7 @@
 				23E45DBE18553758006978F9 /* GeoGolfTests */,
 				23E45D8C18553758006978F9 /* Frameworks */,
 				23E45D8B18553758006978F9 /* Products */,
+				F9A352012B66436699C5DD79 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,11 +130,14 @@
 		23E45D8C18553758006978F9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				23E2A274185650D500669041 /* MapKit.framework */,
+				23E2A2721856506F00669041 /* CoreLocation.framework */,
 				23E45D8D18553758006978F9 /* Foundation.framework */,
 				23E45D8F18553758006978F9 /* CoreGraphics.framework */,
 				23E45D9118553758006978F9 /* UIKit.framework */,
 				23E45D9318553758006978F9 /* CoreData.framework */,
 				23E45DB718553758006978F9 /* XCTest.framework */,
+				ECC121C9819444DB9F434A50 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -133,6 +153,10 @@
 				23E45DAB18553758006978F9 /* MainViewController.m */,
 				23E45DAD18553758006978F9 /* FlipsideViewController.h */,
 				23E45DAE18553758006978F9 /* FlipsideViewController.m */,
+				2375378B1857A88800B2F114 /* TestingViewController.h */,
+				2375378C1857A88800B2F114 /* TestingViewController.m */,
+				2375378E1857B84100B2F114 /* GGAnnotation.h */,
+				2375378F1857B84100B2F114 /* GGAnnotation.m */,
 				23E45DB018553758006978F9 /* Images.xcassets */,
 				23E45DA718553758006978F9 /* GeoGolf.xcdatamodeld */,
 				23E45D9618553758006978F9 /* Supporting Files */,
@@ -176,9 +200,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23E45DC818553758006978F9 /* Build configuration list for PBXNativeTarget "GeoGolf" */;
 			buildPhases = (
+				8E3167246D6D4A1191D05331 /* Check Pods Manifest.lock */,
 				23E45D8618553758006978F9 /* Sources */,
 				23E45D8718553758006978F9 /* Frameworks */,
 				23E45D8818553758006978F9 /* Resources */,
+				8F1C628BD92F400F802170CC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -216,6 +242,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = KickinEspresso;
 				TargetAttributes = {
+					23E45D8918553758006978F9 = {
+						DevelopmentTeam = 3KRTY7A9RE;
+					};
 					23E45DB518553758006978F9 = {
 						TestTargetID = 23E45D8918553758006978F9;
 					};
@@ -262,14 +291,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8E3167246D6D4A1191D05331 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8F1C628BD92F400F802170CC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		23E45D8618553758006978F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				23E45DA918553758006978F9 /* GeoGolf.xcdatamodeld in Sources */,
+				237537901857B84100B2F114 /* GGAnnotation.m in Sources */,
 				23E45DA018553758006978F9 /* AppDelegate.m in Sources */,
 				23E45D9C18553758006978F9 /* main.m in Sources */,
+				2375378D1857A88800B2F114 /* TestingViewController.m in Sources */,
 				23E45DAF18553758006978F9 /* FlipsideViewController.m in Sources */,
 				23E45DAC18553758006978F9 /* MainViewController.m in Sources */,
 			);
@@ -405,26 +469,34 @@
 		};
 		23E45DC918553758006978F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9A352012B66436699C5DD79 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GeoGolf/GeoGolf-Prefix.pch";
 				INFOPLIST_FILE = "GeoGolf/GeoGolf-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		23E45DCA18553758006978F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9A352012B66436699C5DD79 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GeoGolf/GeoGolf-Prefix.pch";
 				INFOPLIST_FILE = "GeoGolf/GeoGolf-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -490,6 +562,7 @@
 				23E45DCA18553758006978F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23E45DCB18553758006978F9 /* Build configuration list for PBXNativeTarget "GeoGolfTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +571,7 @@
 				23E45DCD18553758006978F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

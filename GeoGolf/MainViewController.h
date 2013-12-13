@@ -7,8 +7,8 @@
 //
 
 #import "FlipsideViewController.h"
-
-@interface MainViewController : UIViewController <FlipsideViewControllerDelegate, UIPopoverControllerDelegate>
+#import "TestingViewController.h"
+@interface MainViewController : UIViewController <FlipsideViewControllerDelegate,TestingViewControllerDelegate, UIPopoverControllerDelegate>
 
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 

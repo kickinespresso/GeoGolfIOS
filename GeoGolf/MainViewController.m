@@ -42,6 +42,15 @@
     self.flipsidePopoverController = nil;
 }
 
+- (void)testingViewControllerDidFinish:(TestingViewController *)controller{
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+        [self dismissViewControllerAnimated:YES completion:nil];
+    } else {
+        [self.flipsidePopoverController dismissPopoverAnimated:YES];
+    }
+}
+
+
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([[segue identifier] isEqualToString:@"showAlternate"]) {
@@ -52,6 +61,16 @@
             self.flipsidePopoverController = popoverController;
             popoverController.delegate = self;
         }
+        
+    }else if ( [[segue identifier] isEqualToString:@"TestingViewControllerSegue"]){
+        
+        [[segue destinationViewController] setDelegate:self];
+        if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
+            UIPopoverController *popoverController = [(UIStoryboardPopoverSegue *)segue popoverController];
+            self.flipsidePopoverController = popoverController;
+            popoverController.delegate = self;
+        }
+
     }
 }
 
@@ -64,5 +83,16 @@
         [self performSegueWithIdentifier:@"showAlternate" sender:sender];
     }
 }
+
+- (IBAction)toggleTesting:(id)sender{
+    if (self.flipsidePopoverController) {
+        [self.flipsidePopoverController dismissPopoverAnimated:YES];
+        self.flipsidePopoverController = nil;
+    } else {
+        [self performSegueWithIdentifier:@"TestingViewControllerSegue" sender:sender];
+    }
+}
+
+
 
 @end
