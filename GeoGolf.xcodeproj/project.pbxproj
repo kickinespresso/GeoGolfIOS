@@ -30,6 +30,17 @@
 		23E45DBB18553758006978F9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E45D9318553758006978F9 /* CoreData.framework */; };
 		23E45DC318553758006978F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23E45DC118553758006978F9 /* InfoPlist.strings */; };
 		23E45DC518553758006978F9 /* GeoGolfTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E45DC418553758006978F9 /* GeoGolfTests.m */; };
+		23E81C18185CC3AD008D0225 /* CourseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E81C17185CC3AD008D0225 /* CourseViewController.m */; };
+		23E81C19185CC3AD008D0225 /* CourseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E81C17185CC3AD008D0225 /* CourseViewController.m */; };
+		23E81C1D185CC421008D0225 /* GGAnnotationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E81C1C185CC421008D0225 /* GGAnnotationTests.m */; };
+		23E81C1F185CC649008D0225 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 23E81C1E185CC649008D0225 /* README.md */; };
+		23E81C20185CC649008D0225 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 23E81C1E185CC649008D0225 /* README.md */; };
+		23E81C23185CCFEF008D0225 /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E81C22185CCFEF008D0225 /* Course.m */; };
+		23E81C26185CCFFF008D0225 /* Hole.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E81C25185CCFFF008D0225 /* Hole.m */; };
+		23E81C29185CD02E008D0225 /* Pin.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E81C28185CD02E008D0225 /* Pin.m */; };
+		23E81C32185CD353008D0225 /* _Course.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E81C2D185CD353008D0225 /* _Course.m */; };
+		23E81C33185CD353008D0225 /* _Hole.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E81C2F185CD353008D0225 /* _Hole.m */; };
+		23E81C34185CD353008D0225 /* _Pin.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E81C31185CD353008D0225 /* _Pin.m */; };
 		C357219429E140CBBA86BB70 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC121C9819444DB9F434A50 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +85,22 @@
 		23E45DC018553758006978F9 /* GeoGolfTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeoGolfTests-Info.plist"; sourceTree = "<group>"; };
 		23E45DC218553758006978F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		23E45DC418553758006978F9 /* GeoGolfTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoGolfTests.m; sourceTree = "<group>"; };
+		23E81C16185CC3AD008D0225 /* CourseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseViewController.h; sourceTree = "<group>"; };
+		23E81C17185CC3AD008D0225 /* CourseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseViewController.m; sourceTree = "<group>"; };
+		23E81C1C185CC421008D0225 /* GGAnnotationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGAnnotationTests.m; sourceTree = "<group>"; };
+		23E81C1E185CC649008D0225 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		23E81C21185CCFEF008D0225 /* Course.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
+		23E81C22185CCFEF008D0225 /* Course.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Course.m; sourceTree = "<group>"; };
+		23E81C24185CCFFF008D0225 /* Hole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hole.h; sourceTree = "<group>"; };
+		23E81C25185CCFFF008D0225 /* Hole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hole.m; sourceTree = "<group>"; };
+		23E81C27185CD02E008D0225 /* Pin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pin.h; sourceTree = "<group>"; };
+		23E81C28185CD02E008D0225 /* Pin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pin.m; sourceTree = "<group>"; };
+		23E81C2C185CD353008D0225 /* _Course.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Course.h; sourceTree = "<group>"; };
+		23E81C2D185CD353008D0225 /* _Course.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Course.m; sourceTree = "<group>"; };
+		23E81C2E185CD353008D0225 /* _Hole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Hole.h; sourceTree = "<group>"; };
+		23E81C2F185CD353008D0225 /* _Hole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Hole.m; sourceTree = "<group>"; };
+		23E81C30185CD353008D0225 /* _Pin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Pin.h; sourceTree = "<group>"; };
+		23E81C31185CD353008D0225 /* _Pin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Pin.m; sourceTree = "<group>"; };
 		ECC121C9819444DB9F434A50 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A352012B66436699C5DD79 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,6 +137,7 @@
 		23E45D8118553758006978F9 = {
 			isa = PBXGroup;
 			children = (
+				23E81C1E185CC649008D0225 /* README.md */,
 				23E45D9518553758006978F9 /* GeoGolf */,
 				23E45DBE18553758006978F9 /* GeoGolfTests */,
 				23E45D8C18553758006978F9 /* Frameworks */,
@@ -151,6 +179,8 @@
 				23E45DA418553758006978F9 /* Main_iPad.storyboard */,
 				23E45DAA18553758006978F9 /* MainViewController.h */,
 				23E45DAB18553758006978F9 /* MainViewController.m */,
+				23E81C16185CC3AD008D0225 /* CourseViewController.h */,
+				23E81C17185CC3AD008D0225 /* CourseViewController.m */,
 				23E45DAD18553758006978F9 /* FlipsideViewController.h */,
 				23E45DAE18553758006978F9 /* FlipsideViewController.m */,
 				2375378B1857A88800B2F114 /* TestingViewController.h */,
@@ -158,7 +188,7 @@
 				2375378E1857B84100B2F114 /* GGAnnotation.h */,
 				2375378F1857B84100B2F114 /* GGAnnotation.m */,
 				23E45DB018553758006978F9 /* Images.xcassets */,
-				23E45DA718553758006978F9 /* GeoGolf.xcdatamodeld */,
+				23E81C2B185CD334008D0225 /* DataModel */,
 				23E45D9618553758006978F9 /* Supporting Files */,
 			);
 			path = GeoGolf;
@@ -179,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				23E45DC418553758006978F9 /* GeoGolfTests.m */,
+				23E81C1C185CC421008D0225 /* GGAnnotationTests.m */,
 				23E45DBF18553758006978F9 /* Supporting Files */,
 			);
 			path = GeoGolfTests;
@@ -191,6 +222,34 @@
 				23E45DC118553758006978F9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		23E81C2B185CD334008D0225 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				23E81C35185CD35B008D0225 /* Generated */,
+				23E45DA718553758006978F9 /* GeoGolf.xcdatamodeld */,
+				23E81C21185CCFEF008D0225 /* Course.h */,
+				23E81C22185CCFEF008D0225 /* Course.m */,
+				23E81C24185CCFFF008D0225 /* Hole.h */,
+				23E81C25185CCFFF008D0225 /* Hole.m */,
+				23E81C27185CD02E008D0225 /* Pin.h */,
+				23E81C28185CD02E008D0225 /* Pin.m */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+		23E81C35185CD35B008D0225 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				23E81C2C185CD353008D0225 /* _Course.h */,
+				23E81C2D185CD353008D0225 /* _Course.m */,
+				23E81C2E185CD353008D0225 /* _Hole.h */,
+				23E81C2F185CD353008D0225 /* _Hole.m */,
+				23E81C30185CD353008D0225 /* _Pin.h */,
+				23E81C31185CD353008D0225 /* _Pin.m */,
+			);
+			name = Generated;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +335,7 @@
 			files = (
 				23E45DA618553758006978F9 /* Main_iPad.storyboard in Resources */,
 				23E45DB118553758006978F9 /* Images.xcassets in Resources */,
+				23E81C1F185CC649008D0225 /* README.md in Resources */,
 				23E45DA318553758006978F9 /* Main_iPhone.storyboard in Resources */,
 				23E45D9A18553758006978F9 /* InfoPlist.strings in Resources */,
 			);
@@ -285,6 +345,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23E81C20185CC649008D0225 /* README.md in Resources */,
 				23E45DC318553758006978F9 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,9 +390,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23E81C29185CD02E008D0225 /* Pin.m in Sources */,
 				23E45DA918553758006978F9 /* GeoGolf.xcdatamodeld in Sources */,
+				23E81C18185CC3AD008D0225 /* CourseViewController.m in Sources */,
 				237537901857B84100B2F114 /* GGAnnotation.m in Sources */,
+				23E81C33185CD353008D0225 /* _Hole.m in Sources */,
+				23E81C32185CD353008D0225 /* _Course.m in Sources */,
 				23E45DA018553758006978F9 /* AppDelegate.m in Sources */,
+				23E81C34185CD353008D0225 /* _Pin.m in Sources */,
+				23E81C23185CCFEF008D0225 /* Course.m in Sources */,
+				23E81C26185CCFFF008D0225 /* Hole.m in Sources */,
 				23E45D9C18553758006978F9 /* main.m in Sources */,
 				2375378D1857A88800B2F114 /* TestingViewController.m in Sources */,
 				23E45DAF18553758006978F9 /* FlipsideViewController.m in Sources */,
@@ -344,6 +412,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				23E45DC518553758006978F9 /* GeoGolfTests.m in Sources */,
+				23E81C19185CC3AD008D0225 /* CourseViewController.m in Sources */,
+				23E81C1D185CC421008D0225 /* GGAnnotationTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

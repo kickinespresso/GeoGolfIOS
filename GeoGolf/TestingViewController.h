@@ -39,7 +39,6 @@
 @property (strong, nonatomic) CLLocationManager* locationManager;
 
 
-
 - (IBAction)done:(id)sender;
 - (IBAction)markCurrentPositionAction:(id)sender;
 

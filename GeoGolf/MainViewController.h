@@ -11,7 +11,6 @@
 @interface MainViewController : UIViewController <FlipsideViewControllerDelegate,TestingViewControllerDelegate, UIPopoverControllerDelegate>
 
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
-
 @property (strong, nonatomic) UIPopoverController *flipsidePopoverController;
 
 @end
